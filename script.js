@@ -14,8 +14,8 @@
 
 
 const currentDay = $('#currentDay')[0];
-// const currentTime = moment().hour();
-const currentTime = 12
+const currentTime = moment().hour();
+// const currentTime = 12
 
 // display current day 
 currentDay.innerText = moment().format('dddd, MMMM Do')
